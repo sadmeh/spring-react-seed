@@ -12,6 +12,7 @@
         <module>front-end</module>
         <module>back-end</module>
         <module>bundle</module>
+        <module>auth-server</module>
     </modules>
 
 </project>
