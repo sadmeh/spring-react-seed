@@ -1,0 +1,13 @@
+server:
+  port: 9891
+
+security:
+  jwt:
+    public-key: classpath:public.txt
+
+spring:
+  profiles:
+    active: test
+  jackson:
+    serialization:
+      INDENT_OUTPUT: true

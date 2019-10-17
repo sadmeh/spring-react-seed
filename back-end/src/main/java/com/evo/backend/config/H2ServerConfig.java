@@ -10,7 +10,7 @@ import javax.annotation.PostConstruct;
 import java.sql.SQLException;
 import java.util.Arrays;
 
-//@Profile("dev")
+@Profile("dev")
 @Configuration
 public class H2ServerConfig {
     @Autowired
